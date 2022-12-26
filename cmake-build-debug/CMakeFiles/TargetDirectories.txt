@@ -1,9 +1,0 @@
-/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/CMakeFiles/GraphProject.dir
-/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/CMakeFiles/list_install_components.dir
-/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/CMakeFiles/install.dir
-/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/CMakeFiles/install/local.dir
-/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/CMakeFiles/install/strip.dir
-/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/CMakeFiles/GraphProject_autogen_timestamp_deps.dir
-/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/CMakeFiles/GraphProject_autogen.dir
