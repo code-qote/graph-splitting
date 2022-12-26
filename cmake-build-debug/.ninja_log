@@ -1,0 +1,22 @@
+# ninja log v5
+2	253	0	/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/CMakeFiles/cmake.verify_globs	ee9db71ef3746fe2
+8	32	1672080089654840212	GraphProject_autogen/timestamp	11326c6101a2eeae
+8	32	1672080089654840212	GraphProject_autogen/mocs_compilation.cpp	11326c6101a2eeae
+8	32	1672080089654840212	/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/GraphProject_autogen/timestamp	11326c6101a2eeae
+8	32	1672080089654840212	/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/GraphProject_autogen/mocs_compilation.cpp	11326c6101a2eeae
+35	50	1672080089673220751	ui_mainwindow.h	83f94f689efe2081
+35	50	1672080089673220751	/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/ui_mainwindow.h	83f94f689efe2081
+51	488	1672080090107934657	CMakeFiles/GraphProject.dir/src/SolverModel/AdjacencyMatrix.cpp.o	7c42b2348e94f81d
+51	684	1672080090302301436	CMakeFiles/GraphProject.dir/src/SolverModel/Graph.cpp.o	5807cde02b577cb5
+50	973	1672080090589932574	CMakeFiles/GraphProject.dir/src/View/ViewEdge.cpp.o	39715f7344b124bf
+489	1070	1672080090688923360	CMakeFiles/GraphProject.dir/src/SolverModel/SolverModel.cpp.o	ac9cd4bc65b7a43c
+684	1188	1672080090801928668	CMakeFiles/GraphProject.dir/src/SolverModel/SplitAlgorithms/GetAllHyperCubes.cpp.o	f9fd13517c8efaba
+51	1240	1672080090855525005	CMakeFiles/GraphProject.dir/main.cpp.o	52f3021524969920
+51	1263	1672080090876986313	CMakeFiles/GraphProject.dir/GraphProject_autogen/mocs_compilation.cpp.o	b2107d6ed6ff0dc
+974	1424	1672080091040288112	CMakeFiles/GraphProject.dir/src/SolverModel/SplitAlgorithms/GetAllGrids.cpp.o	189f170390da69b6
+1188	1630	1672080091246311910	CMakeFiles/GraphProject.dir/src/SolverModel/SplitAlgorithms/GetAllLines.cpp.o	3ae330a3f748838b
+1071	1635	1672080091251965634	CMakeFiles/GraphProject.dir/src/SolverModel/SplitAlgorithms/GetAllBinaryTrees.cpp.o	2c0f0ff0bfbb4a9c
+51	1645	1672080091261042282	CMakeFiles/GraphProject.dir/src/View/mainwindow.cpp.o	d22072f4be994796
+1263	1990	1672080091608090974	CMakeFiles/GraphProject.dir/src/View/GraphWidget.cpp.o	495909018ba07139
+1240	2038	1672080091656247121	CMakeFiles/GraphProject.dir/src/View/ViewVertex.cpp.o	1a87951621217af5
+2038	2278	1672080091899722558	GraphProject.app/Contents/MacOS/GraphProject	5f563c3d1915b8ce

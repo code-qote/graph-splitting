@@ -1,0 +1,347 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: GraphProject
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.8
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target GraphProject
+
+
+#############################################
+# Order-only phony target for GraphProject
+
+build cmake_object_order_depends_target_GraphProject: phony || GraphProject_autogen GraphProject_autogen/mocs_compilation.cpp GraphProject_autogen/timestamp GraphProject_autogen_timestamp_deps ui_mainwindow.h
+
+build CMakeFiles/GraphProject.dir/GraphProject_autogen/mocs_compilation.cpp.o: CXX_COMPILER__GraphProject_Debug /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/GraphProject_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_GraphProject
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/GraphProject.dir/GraphProject_autogen/mocs_compilation.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++17
+  INCLUDES = -I/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/GraphProject_autogen/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtCore.framework/Headers -iframework /Users/nikitaglusin/Qt/6.4.1/macos/lib -isystem /Users/nikitaglusin/Qt/6.4.1/macos/mkspecs/macx-clang -isystem /Users/nikitaglusin/Qt/6.4.1/macos/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/GraphProject.dir
+  OBJECT_FILE_DIR = CMakeFiles/GraphProject.dir/GraphProject_autogen
+
+build CMakeFiles/GraphProject.dir/main.cpp.o: CXX_COMPILER__GraphProject_Debug /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/main.cpp || cmake_object_order_depends_target_GraphProject
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/GraphProject.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++17
+  INCLUDES = -I/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/GraphProject_autogen/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtCore.framework/Headers -iframework /Users/nikitaglusin/Qt/6.4.1/macos/lib -isystem /Users/nikitaglusin/Qt/6.4.1/macos/mkspecs/macx-clang -isystem /Users/nikitaglusin/Qt/6.4.1/macos/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/GraphProject.dir
+  OBJECT_FILE_DIR = CMakeFiles/GraphProject.dir
+
+build CMakeFiles/GraphProject.dir/src/View/mainwindow.cpp.o: CXX_COMPILER__GraphProject_Debug /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/src/View/mainwindow.cpp || cmake_object_order_depends_target_GraphProject
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/GraphProject.dir/src/View/mainwindow.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++17
+  INCLUDES = -I/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/GraphProject_autogen/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtCore.framework/Headers -iframework /Users/nikitaglusin/Qt/6.4.1/macos/lib -isystem /Users/nikitaglusin/Qt/6.4.1/macos/mkspecs/macx-clang -isystem /Users/nikitaglusin/Qt/6.4.1/macos/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/GraphProject.dir
+  OBJECT_FILE_DIR = CMakeFiles/GraphProject.dir/src/View
+
+build CMakeFiles/GraphProject.dir/src/SolverModel/AdjacencyMatrix.cpp.o: CXX_COMPILER__GraphProject_Debug /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/src/SolverModel/AdjacencyMatrix.cpp || cmake_object_order_depends_target_GraphProject
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/GraphProject.dir/src/SolverModel/AdjacencyMatrix.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++17
+  INCLUDES = -I/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/GraphProject_autogen/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtCore.framework/Headers -iframework /Users/nikitaglusin/Qt/6.4.1/macos/lib -isystem /Users/nikitaglusin/Qt/6.4.1/macos/mkspecs/macx-clang -isystem /Users/nikitaglusin/Qt/6.4.1/macos/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/GraphProject.dir
+  OBJECT_FILE_DIR = CMakeFiles/GraphProject.dir/src/SolverModel
+
+build CMakeFiles/GraphProject.dir/src/SolverModel/Graph.cpp.o: CXX_COMPILER__GraphProject_Debug /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/src/SolverModel/Graph.cpp || cmake_object_order_depends_target_GraphProject
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/GraphProject.dir/src/SolverModel/Graph.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++17
+  INCLUDES = -I/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/GraphProject_autogen/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtCore.framework/Headers -iframework /Users/nikitaglusin/Qt/6.4.1/macos/lib -isystem /Users/nikitaglusin/Qt/6.4.1/macos/mkspecs/macx-clang -isystem /Users/nikitaglusin/Qt/6.4.1/macos/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/GraphProject.dir
+  OBJECT_FILE_DIR = CMakeFiles/GraphProject.dir/src/SolverModel
+
+build CMakeFiles/GraphProject.dir/src/SolverModel/SolverModel.cpp.o: CXX_COMPILER__GraphProject_Debug /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/src/SolverModel/SolverModel.cpp || cmake_object_order_depends_target_GraphProject
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/GraphProject.dir/src/SolverModel/SolverModel.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++17
+  INCLUDES = -I/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/GraphProject_autogen/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtCore.framework/Headers -iframework /Users/nikitaglusin/Qt/6.4.1/macos/lib -isystem /Users/nikitaglusin/Qt/6.4.1/macos/mkspecs/macx-clang -isystem /Users/nikitaglusin/Qt/6.4.1/macos/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/GraphProject.dir
+  OBJECT_FILE_DIR = CMakeFiles/GraphProject.dir/src/SolverModel
+
+build CMakeFiles/GraphProject.dir/src/SolverModel/SplitAlgorithms/GetAllHyperCubes.cpp.o: CXX_COMPILER__GraphProject_Debug /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/src/SolverModel/SplitAlgorithms/GetAllHyperCubes.cpp || cmake_object_order_depends_target_GraphProject
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/GraphProject.dir/src/SolverModel/SplitAlgorithms/GetAllHyperCubes.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++17
+  INCLUDES = -I/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/GraphProject_autogen/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtCore.framework/Headers -iframework /Users/nikitaglusin/Qt/6.4.1/macos/lib -isystem /Users/nikitaglusin/Qt/6.4.1/macos/mkspecs/macx-clang -isystem /Users/nikitaglusin/Qt/6.4.1/macos/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/GraphProject.dir
+  OBJECT_FILE_DIR = CMakeFiles/GraphProject.dir/src/SolverModel/SplitAlgorithms
+
+build CMakeFiles/GraphProject.dir/src/SolverModel/SplitAlgorithms/GetAllGrids.cpp.o: CXX_COMPILER__GraphProject_Debug /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/src/SolverModel/SplitAlgorithms/GetAllGrids.cpp || cmake_object_order_depends_target_GraphProject
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/GraphProject.dir/src/SolverModel/SplitAlgorithms/GetAllGrids.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++17
+  INCLUDES = -I/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/GraphProject_autogen/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtCore.framework/Headers -iframework /Users/nikitaglusin/Qt/6.4.1/macos/lib -isystem /Users/nikitaglusin/Qt/6.4.1/macos/mkspecs/macx-clang -isystem /Users/nikitaglusin/Qt/6.4.1/macos/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/GraphProject.dir
+  OBJECT_FILE_DIR = CMakeFiles/GraphProject.dir/src/SolverModel/SplitAlgorithms
+
+build CMakeFiles/GraphProject.dir/src/SolverModel/SplitAlgorithms/GetAllBinaryTrees.cpp.o: CXX_COMPILER__GraphProject_Debug /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/src/SolverModel/SplitAlgorithms/GetAllBinaryTrees.cpp || cmake_object_order_depends_target_GraphProject
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/GraphProject.dir/src/SolverModel/SplitAlgorithms/GetAllBinaryTrees.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++17
+  INCLUDES = -I/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/GraphProject_autogen/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtCore.framework/Headers -iframework /Users/nikitaglusin/Qt/6.4.1/macos/lib -isystem /Users/nikitaglusin/Qt/6.4.1/macos/mkspecs/macx-clang -isystem /Users/nikitaglusin/Qt/6.4.1/macos/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/GraphProject.dir
+  OBJECT_FILE_DIR = CMakeFiles/GraphProject.dir/src/SolverModel/SplitAlgorithms
+
+build CMakeFiles/GraphProject.dir/src/SolverModel/SplitAlgorithms/GetAllLines.cpp.o: CXX_COMPILER__GraphProject_Debug /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/src/SolverModel/SplitAlgorithms/GetAllLines.cpp || cmake_object_order_depends_target_GraphProject
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/GraphProject.dir/src/SolverModel/SplitAlgorithms/GetAllLines.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++17
+  INCLUDES = -I/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/GraphProject_autogen/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtCore.framework/Headers -iframework /Users/nikitaglusin/Qt/6.4.1/macos/lib -isystem /Users/nikitaglusin/Qt/6.4.1/macos/mkspecs/macx-clang -isystem /Users/nikitaglusin/Qt/6.4.1/macos/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/GraphProject.dir
+  OBJECT_FILE_DIR = CMakeFiles/GraphProject.dir/src/SolverModel/SplitAlgorithms
+
+build CMakeFiles/GraphProject.dir/src/View/ViewEdge.cpp.o: CXX_COMPILER__GraphProject_Debug /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/src/View/ViewEdge.cpp || cmake_object_order_depends_target_GraphProject
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/GraphProject.dir/src/View/ViewEdge.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++17
+  INCLUDES = -I/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/GraphProject_autogen/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtCore.framework/Headers -iframework /Users/nikitaglusin/Qt/6.4.1/macos/lib -isystem /Users/nikitaglusin/Qt/6.4.1/macos/mkspecs/macx-clang -isystem /Users/nikitaglusin/Qt/6.4.1/macos/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/GraphProject.dir
+  OBJECT_FILE_DIR = CMakeFiles/GraphProject.dir/src/View
+
+build CMakeFiles/GraphProject.dir/src/View/ViewVertex.cpp.o: CXX_COMPILER__GraphProject_Debug /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/src/View/ViewVertex.cpp || cmake_object_order_depends_target_GraphProject
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/GraphProject.dir/src/View/ViewVertex.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++17
+  INCLUDES = -I/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/GraphProject_autogen/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtCore.framework/Headers -iframework /Users/nikitaglusin/Qt/6.4.1/macos/lib -isystem /Users/nikitaglusin/Qt/6.4.1/macos/mkspecs/macx-clang -isystem /Users/nikitaglusin/Qt/6.4.1/macos/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/GraphProject.dir
+  OBJECT_FILE_DIR = CMakeFiles/GraphProject.dir/src/View
+
+build CMakeFiles/GraphProject.dir/src/View/GraphWidget.cpp.o: CXX_COMPILER__GraphProject_Debug /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/src/View/GraphWidget.cpp || cmake_object_order_depends_target_GraphProject
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/GraphProject.dir/src/View/GraphWidget.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++17
+  INCLUDES = -I/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/GraphProject_autogen/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtCore.framework/Headers -iframework /Users/nikitaglusin/Qt/6.4.1/macos/lib -isystem /Users/nikitaglusin/Qt/6.4.1/macos/mkspecs/macx-clang -isystem /Users/nikitaglusin/Qt/6.4.1/macos/include -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers -isystem /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/GraphProject.dir
+  OBJECT_FILE_DIR = CMakeFiles/GraphProject.dir/src/View
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target GraphProject
+
+
+#############################################
+# Link the executable GraphProject.app/Contents/MacOS/GraphProject
+
+build GraphProject.app/Contents/MacOS/GraphProject: CXX_EXECUTABLE_LINKER__GraphProject_Debug CMakeFiles/GraphProject.dir/GraphProject_autogen/mocs_compilation.cpp.o CMakeFiles/GraphProject.dir/main.cpp.o CMakeFiles/GraphProject.dir/src/View/mainwindow.cpp.o CMakeFiles/GraphProject.dir/src/SolverModel/AdjacencyMatrix.cpp.o CMakeFiles/GraphProject.dir/src/SolverModel/Graph.cpp.o CMakeFiles/GraphProject.dir/src/SolverModel/SolverModel.cpp.o CMakeFiles/GraphProject.dir/src/SolverModel/SplitAlgorithms/GetAllHyperCubes.cpp.o CMakeFiles/GraphProject.dir/src/SolverModel/SplitAlgorithms/GetAllGrids.cpp.o CMakeFiles/GraphProject.dir/src/SolverModel/SplitAlgorithms/GetAllBinaryTrees.cpp.o CMakeFiles/GraphProject.dir/src/SolverModel/SplitAlgorithms/GetAllLines.cpp.o CMakeFiles/GraphProject.dir/src/View/ViewEdge.cpp.o CMakeFiles/GraphProject.dir/src/View/ViewVertex.cpp.o CMakeFiles/GraphProject.dir/src/View/GraphWidget.cpp.o | /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtGui.framework/Versions/A/QtGui /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtCore.framework/Versions/A/QtCore || GraphProject_autogen GraphProject_autogen_timestamp_deps
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_FLAGS = -L/usr/local/opt/openssl@3/lib
+  LINK_LIBRARIES = -Wl,-rpath,/Users/nikitaglusin/Qt/6.4.1/macos/lib  /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtWidgets.framework/Versions/A/QtWidgets  /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtGui.framework/Versions/A/QtGui  /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -framework  OpenGL  -framework  AGL  -framework AppKit  -framework ImageIO  -framework Metal
+  OBJECT_DIR = CMakeFiles/GraphProject.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = GraphProject.app/Contents/MacOS/GraphProject
+  TARGET_PDB = GraphProject.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject -B/Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build CMakeFiles/install.util: CUSTOM_COMMAND all
+  COMMAND = cd /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build install: phony CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build CMakeFiles/install/local.util: CUSTOM_COMMAND all
+  COMMAND = cd /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build install/local: phony CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
+  COMMAND = cd /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build install/strip: phony CMakeFiles/install/strip.util
+
+
+#############################################
+# Utility command for GraphProject_autogen_timestamp_deps
+
+build GraphProject_autogen_timestamp_deps: phony CMakeFiles/GraphProject_autogen_timestamp_deps
+
+
+#############################################
+# Utility command for GraphProject_autogen
+
+build GraphProject_autogen: phony CMakeFiles/GraphProject_autogen GraphProject_autogen/timestamp GraphProject_autogen/mocs_compilation.cpp GraphProject_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for ui_mainwindow.h
+
+build ui_mainwindow.h | ${cmake_ninja_workdir}ui_mainwindow.h: CUSTOM_COMMAND ../src/View/mainwindow.ui /Users/nikitaglusin/Qt/6.4.1/macos/./libexec/uic || GraphProject_autogen GraphProject_autogen_timestamp_deps
+  COMMAND = cd /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug && /Users/nikitaglusin/Qt/6.4.1/macos/./libexec/uic -o /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/ui_mainwindow.h /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/src/View/mainwindow.ui
+  DESC = Generating ui_mainwindow.h
+  restat = 1
+
+
+#############################################
+# Custom command for GraphProject_autogen/timestamp
+
+build GraphProject_autogen/timestamp GraphProject_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}GraphProject_autogen/timestamp ${cmake_ninja_workdir}GraphProject_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /Users/nikitaglusin/Qt/6.4.1/macos/./libexec/moc /Users/nikitaglusin/Qt/6.4.1/macos/./libexec/uic || GraphProject_autogen_timestamp_deps
+  COMMAND = cd /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_autogen /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/CMakeFiles/GraphProject_autogen.dir/AutogenInfo.json Debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/GraphProject_autogen/timestamp && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_transform_depfile Ninja gccdepfile /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/GraphProject_autogen/deps /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/CMakeFiles/d/80dbd2e71d4129449f5a13880c44a863b2b44c6f7f0af0e17b141e59b8a66eb0.d
+  DESC = Automatic MOC and UIC for target GraphProject
+  depfile = /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/CMakeFiles/d/80dbd2e71d4129449f5a13880c44a863b2b44c6f7f0af0e17b141e59b8a66eb0.d
+  restat = 1
+
+
+#############################################
+# Phony custom command for CMakeFiles/GraphProject_autogen_timestamp_deps
+
+build CMakeFiles/GraphProject_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/GraphProject_autogen_timestamp_deps: phony /Users/nikitaglusin/Qt/6.4.1/macos/./libexec/moc /Users/nikitaglusin/Qt/6.4.1/macos/./libexec/uic /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtCore.framework/Versions/A/QtCore /Users/nikitaglusin/Qt/6.4.1/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
+
+
+#############################################
+# Phony custom command for CMakeFiles/GraphProject_autogen
+
+build CMakeFiles/GraphProject_autogen | ${cmake_ninja_workdir}CMakeFiles/GraphProject_autogen: phony GraphProject_autogen/timestamp || GraphProject_autogen_timestamp_deps
+
+# =============================================================================
+# Target aliases.
+
+build GraphProject: phony GraphProject.app/Contents/MacOS/GraphProject
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug
+
+build all: phony GraphProject.app/Contents/MacOS/GraphProject
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Phony target to force glob verification run.
+
+build /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake_force: phony
+
+
+#############################################
+# Re-run CMake to check if globbed directories changed.
+
+build /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/CMakeFiles/cmake.verify_globs: VERIFY_GLOBS | /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake_force
+  pool = console
+  restat = 1
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/CMakeFiles/cmake.verify_globs | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeFindDependencyMacro.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseArguments.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CheckCXXCompilerFlag.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CheckCXXSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CheckIncludeFileCXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindOpenGL.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Internal/CheckCompilerFlag.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Internal/CheckFlagCommonConfig.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/MacroAddFileDependencies.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/FindWrapAtomic.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/Qt6Config.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/Qt6Dependencies.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/Qt6Targets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/Qt6VersionlessTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtFeature.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtFeatureCommon.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/macos/MacOSXBundleInfo.plist.in /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsConfigVersion.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsConfigVersionImpl.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsDependencies.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsVersionlessTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeFindDependencyMacro.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseArguments.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CheckCXXCompilerFlag.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CheckCXXSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CheckIncludeFileCXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindOpenGL.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Internal/CheckCompilerFlag.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Internal/CheckFlagCommonConfig.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/MacroAddFileDependencies.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake /Users/nikitaglusin/Documents/Coding/qt_test/GraphProject/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/FindWrapAtomic.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/Qt6Config.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/Qt6Dependencies.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/Qt6Targets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/Qt6VersionlessTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtFeature.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtFeatureCommon.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6/macos/MacOSXBundleInfo.plist.in /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsConfigVersion.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsConfigVersionImpl.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsDependencies.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsVersionlessTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake /Users/nikitaglusin/Qt/6.4.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean additional files.
+
+build CMakeFiles/clean.additional: CLEAN_ADDITIONAL
+  CONFIG = Debug
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN CMakeFiles/clean.additional
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
